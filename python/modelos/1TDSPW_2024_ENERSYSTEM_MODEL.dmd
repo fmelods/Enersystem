@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="1TDSPW_2024_ENERSYSTEM_MODEL" id="08021646-76D3-0792-580D-3A43B9005A4A" version="3.5">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-22 21:42:33 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>08021646-76D3-0792-580D-3A43B9005A4A</designId>
+</OSDM_Design>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8EACEB8-9B53-3640-C930-46285289A269" name="tb_enersystem_missao_concluida">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:31:50 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_missao_concluida" id="DB8D9F4C-EB5E-891B-552F-4885C0312261">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:31:58 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="71B4C23D-0746-A5E1-8E4E-4C049944DE33">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:46:32 UTC</createdTime>
+<generatorID>F1BD2F55-43B1-F680-0409-810F5A9C1D8A</generatorID>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<referedAttribute>E0072A79-7C16-EAC2-91C3-A8884AD9D357</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_missao" id="5074C978-FF21-A47A-73CA-6DE25B2E5F17">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:46:36 UTC</createdTime>
+<generatorID>1C13198E-625A-6865-68A2-94867F2A3B5A</generatorID>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<referedAttribute>3D70CCB4-C64F-9115-6EC8-1F2A1A5ABB86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_conclusao" id="19AB2A86-2C5C-46FC-E2A6-46AA47369EFD">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:32:40 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E803494F-249F-AA6E-A981-67D7EA609259" name="tb_enersystem_missao_concluida PK">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:32:13 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB8D9F4C-EB5E-891B-552F-4885C0312261</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

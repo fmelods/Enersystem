@@ -1,0 +1,79 @@
+Projeto: Predição e Regressão com Flask e Machine Learning
+Equipe:
+
+
+Leonardo Matheus Teixeira - RM556629
+Marcos Vinícius Pereira de Oliveira - RM557252
+Felipe Melo de Sousa - RM556099
+
+
+
+
+Descrição do Projeto
+Este projeto tem como objetivo construir uma aplicação para realizar predições e regressões baseadas em um modelo de machine learning. Ele utiliza Flask como framework de backend para criar APIs que recebem dados, processam as informações e retornam resultados baseados em modelos de aprendizado de máquina previamente treinados.
+
+A aplicação é composta por duas partes principais:
+
+Cliente (client_flask.py): Envia dados para a API do servidor Flask, recebe os resultados e os exibe.
+Servidor (deploy_flask.py): Fornece os endpoints para predições e regressões, processa os dados recebidos, aplica os modelos de machine learning e retorna os resultados.
+Além disso, utilizamos um dataset contendo dados de consumo de energia para construir modelos que exploram a relação entre o uso de fontes renováveis e não renováveis de energia e a intensidade de carbono associada.
+
+Arquitetura do Projeto
+Cliente (client_flask.py)
+Envia requisições para os endpoints da API do Flask (/predict e /regress).
+Recebe e processa os resultados retornados, exibindo-os no console.
+Permite testes simples de predição e regressão com diferentes entradas de dados.
+Exemplo de entrada para predição:
+json
+Copy code
+{
+    "renewables_share_energy": "0.053",
+    "fossil_share_energy": "99.947",
+    "carbon_intensity_elec": "508.162"
+}
+Exemplo de entrada para regressão:
+json
+Copy code
+{
+    "renewables_share_energy": "0.480"
+}
+Servidor (deploy_flask.py)
+Carrega três componentes essenciais:
+Modelo de regressão: Treinado para prever variáveis contínuas.
+Cluster model: Para categorizar ou agrupar amostras.
+Scaler: Para normalizar os dados de entrada antes de aplicar os modelos.
+Endpoints:
+/predict:
+Processa dados escalonados usando o modelo de cluster.
+Retorna a categoria predita.
+/regress:
+Aplica o modelo de regressão nos dados fornecidos.
+Retorna o valor contínuo predito.
+Ferramentas utilizadas:
+Flask para criação da API.
+Pandas para manipulação de dados.
+Pickle para carregar os modelos treinados.
+Funcionamento do Projeto
+Input de Dados
+
+O cliente envia os dados em formato JSON.
+Esses dados representam métricas relacionadas ao uso de energia.
+Processamento no Servidor
+
+Os dados são transformados em um DataFrame do Pandas.
+São aplicadas escalas e modelos de predição ou regressão.
+Retorno de Resultados
+
+O servidor responde com um JSON contendo o resultado:
+Predição de cluster (/predict): Exemplo - Categoria 1.
+Regressão (/regress): Exemplo - Valor contínuo 0.75.
+Diferenciais
+Modularidade: Separação clara entre cliente e servidor.
+Flexibilidade: Capacidade de expandir para novos endpoints e modelos.
+Sustentabilidade: O projeto aborda temas relacionados ao consumo de energia e sustentabilidade, promovendo reflexões baseadas em dados.
+Aplicação Prática
+O projeto pode ser usado como base para sistemas que monitoram e analisam padrões de consumo energético em diversos contextos. Com os dados fornecidos pelo usuário, é possível:
+
+Identificar padrões de uso de energia renovável e não renovável.
+Realizar previsões sobre a intensidade de carbono associada.
+Gerar insights para tomada de decisão em políticas energéticas.

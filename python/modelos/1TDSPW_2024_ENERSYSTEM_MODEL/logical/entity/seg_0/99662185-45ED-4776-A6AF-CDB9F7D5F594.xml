@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99662185-45ED-4776-A6AF-CDB9F7D5F594" name="tb_enersystem_plano_energia">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 00:51:10 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plano" id="9BFD2B64-2E58-A61F-8B2B-13971405B699">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 00:51:19 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="130671B2-FFAB-3092-D057-B6DD047B8CC2">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:44:31 UTC</createdTime>
+<generatorID>CC545B2D-B7DC-816E-12ED-0979EF775859</generatorID>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<referedAttribute>1F45387B-3754-ECCD-B4B5-F6A1EFA893F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_plano" id="9DA6133F-1F3C-3A4D-A987-5B7454592740">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 00:51:42 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_plano" id="F1076FA0-FEC2-7C8C-BC86-1E2B080913FB">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 00:51:54 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custo_mensal" id="10A9B86B-0471-4F0C-F827-579910BA981D">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 00:51:58 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pegada_carbono" id="E7D64A0B-C173-42F6-D9D7-5062966B029C">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 00:52:03 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="C5B33707-B441-108F-0D1D-0BBFD13937C8">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 00:52:06 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCC6B3EF-1B70-881B-6579-C89D50941983" name="tb_enersystem_plano_energia PK">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 00:51:27 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BFD2B64-2E58-A61F-8B2B-13971405B699</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

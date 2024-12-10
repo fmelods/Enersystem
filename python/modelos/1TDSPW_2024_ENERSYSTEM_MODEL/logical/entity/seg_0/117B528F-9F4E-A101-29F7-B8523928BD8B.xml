@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="117B528F-9F4E-A101-29F7-B8523928BD8B" name="tb_enersystem_consumo_usuario">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:30:39 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_consumo" id="6D7E2477-FB1B-8006-9B42-008B974C8480">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:30:48 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="13955899-697D-9269-9A4D-ED3936528F3B">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:45:19 UTC</createdTime>
+<generatorID>16D4BC91-4E8B-79BC-EAFD-DFF683DAF931</generatorID>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<referedAttribute>E0072A79-7C16-EAC2-91C3-A8884AD9D357</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="consumo_kwh" id="60D74C58-6C8C-1C3C-3366-D015DFD7DA86">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:31:28 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mes" id="AA5D41BF-EBAA-019E-7324-A27CE80CBC09">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:31:17 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="009248AD-1CC5-1DCC-EDF6-078D137080CD" name="tb_enersystem_consumo_usuario PK">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:45:42 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D7E2477-FB1B-8006-9B42-008B974C8480</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

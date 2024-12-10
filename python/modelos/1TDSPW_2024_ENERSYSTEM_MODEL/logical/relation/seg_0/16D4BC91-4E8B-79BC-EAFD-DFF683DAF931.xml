@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="16D4BC91-4E8B-79BC-EAFD-DFF683DAF931">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:45:19 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="4547AAD2-9CCC-5DDA-EF70-18D54A2F9C42" value="true"/>
+</engineerTo>
+<sourcePk>D4DE3429-31EA-8778-8AC6-636E63FA47B7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4335BD07-8522-2768-9671-0647BFDB3CF3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>117B528F-9F4E-A101-29F7-B8523928BD8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="A0BEFFF7-1486-F5DE-B201-585AD7A3BB35" name="TB_ENERGSYSTEM_EMPRESA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="428C5047-D74F-CD9C-E84B-04884E33EC9D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="47809169-709F-F5A9-312D-D263C18CCE27" name="TB_ENERGSYSTEM_LOGIN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="428C5047-D74F-CD9C-E84B-04884E33EC9D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="1A2A26CB-CB22-FDC3-37EB-85358281C0FF" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="428C5047-D74F-CD9C-E84B-04884E33EC9D" propertySourceId="A0BEFFF7-1486-F5DE-B201-585AD7A3BB35" propertyTargetId="47809169-709F-F5A9-312D-D263C18CCE27"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

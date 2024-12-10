@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="43CDE66C-58CD-2571-4C93-EB94AE4F58EC" mainViewID="B9A2371D-17F4-66C5-65F2-3EE8D2A28433">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-22 21:42:34 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERSYSTEM_MODEL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

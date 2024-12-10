@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47809169-709F-F5A9-312D-D263C18CCE27" name="TB_ENERGSYSTEM_LOGIN">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:53:24 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERGSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="9ADF7A7D-5119-DF9D-203C-5848A2FE3C41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LOGIN" id="93F0937F-618A-13B9-3885-FA1D5D201BBA">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:57:05 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERGSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="9ADF7A7D-5119-DF9D-203C-5848A2FE3C41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_EMPRESA" id="88CA291B-205E-3B97-5646-2F3E74F304BA">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:58:01 UTC</createdTime>
+<generatorID>1A2A26CB-CB22-FDC3-37EB-85358281C0FF</generatorID>
+<ownerDesignName>1TDSPW_2024_ENERGSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="9ADF7A7D-5119-DF9D-203C-5848A2FE3C41" value="true"/>
+</engineerTo>
+<referedAttribute>E18A5A01-E38A-7F26-43D5-8C618AF57F43</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNPJ" id="AC80A9E8-53C5-6F2E-7314-44C93A770208">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:57:14 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERGSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="9ADF7A7D-5119-DF9D-203C-5848A2FE3C41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SENHA" id="18E53B80-0084-8F01-66DA-02D04E01751E">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:57:24 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERGSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="9ADF7A7D-5119-DF9D-203C-5848A2FE3C41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="2FE418FD-421A-84D7-88E3-4B63BE5F4E94">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:57:33 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERGSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="9ADF7A7D-5119-DF9D-203C-5848A2FE3C41" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27E0E9AE-8AD0-F789-EF68-001C60C5D19A" name="TB_ENERGSYSTEM_LOGIN PK">
+<createdBy>melo</createdBy>
+<createdTime>2024-11-23 01:57:13 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_ENERGSYSTEM_MODEL</ownerDesignName>
+<engineerTo>
+<item key="9ADF7A7D-5119-DF9D-203C-5848A2FE3C41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93F0937F-618A-13B9-3885-FA1D5D201BBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
